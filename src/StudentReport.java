@@ -1,3 +1,13 @@
 public class StudentReport {
-    // TODO: Implementar reporte de estudiante
+    private String studentName;
+    private double grade;
+
+    public StudentReport(String studentName, double grade) {
+        this.studentName = studentName;
+        this.grade = grade;
+    }
+
+    public void printReport() {
+        System.out.println("Estudiante: " + studentName + " | Nota: " + grade);
+    }
 }

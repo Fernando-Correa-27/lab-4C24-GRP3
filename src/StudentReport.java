@@ -1,1 +1,3 @@
-"public class StudentReport {\n    // TO DO\n}" 
+public class StudentReport {
+    // TODO: Implementar reporte de estudiante
+}
